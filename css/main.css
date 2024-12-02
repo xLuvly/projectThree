@@ -1,5 +1,5 @@
 html {
-    background-color: #9494ff;
+    background-color: #a1a1ff;
 }
 * {
     font-family: 'Poppins';
@@ -30,11 +30,11 @@ nav li {
     margin: 0px 5px;
     text-align: center;
     width: 170px;
-    border: 5px solid #9494ff;
+    border: 5px solid #a1a1ff;
     border-bottom: none;
 }
 nav .current {
-    background-color: #9494ff;
+    background-color: #a1a1ff;
 }
 .current a {
     color: #3E389A;
@@ -54,7 +54,7 @@ button {
     width: 150px;
     height: 50px;
     position: relative;
-    top: 50px;
+    top: 30px;
     font-size: 20px;
     border-radius: 50px;
     background-image: linear-gradient(150deg, #4b43df, #241c95);
@@ -70,9 +70,11 @@ button:hover {
 
 .bottom-content {
     background-image: linear-gradient(150deg, #4b43df, #241c95);
+    padding-top: 100px;
     height: 700px;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
+    text-align: center;
 }
 footer {
     background-color: #1a137e;
@@ -85,3 +87,13 @@ footer a {
     color: #FEF9FF;
 }
 
+.top {
+    text-align: center;
+    padding: 100px 0 250px 0;
+}
+.top h1 {
+    font-size: 100px;
+}
+.top h2 {
+    font-size: 40px;
+}
