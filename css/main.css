@@ -13,6 +13,12 @@ nav {
     background-image: linear-gradient(150deg, #4b43df, #241c95);
     padding: 0 20px;
 }
+/* #navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1000;
+  } */
 nav img{
     position: relative;
     top: -50%;
@@ -44,6 +50,12 @@ nav li {
 nav .current {
     background-color: #a1a1ff;
 }
+nav a:hover {
+    color: #ffcc00;
+}
+nav .current a:hover {
+    color: #1b1475;
+}
 .current a {
     color: #3E389A;
 }
@@ -55,7 +67,7 @@ nav .current {
 .video-container video {
     position: absolute;
     left: 0;
-    top: 20px;
+    top: 50px;
     height: 80%; 
     width: 85%;
     object-fit: cover;
@@ -80,7 +92,7 @@ body {
     padding: 100px 150px 250px 150px;
 }
 .content h1 {
-    font-size: 100px;
+    font-size: 90px;
     text-decoration: underline;
 }
 
@@ -104,15 +116,53 @@ body {
 
 .bottom-content {
     background-image: linear-gradient(150deg, #4b43df, #241c95);
-    padding-top: 100px;
+    padding-top: 70px;
     height: 700px;
     border-top-right-radius: 5%;
     border-top-left-radius: 5%;
     text-align: center;
+    font-size: 20px;
+}
+.bottom-images {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#cdcaffef;
+    padding: 20px 0 50px 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+
+}
+.image-one, .image-two, .image-three {
+    margin: 15px;
+    position: relative;
+    left: 4.5%;
+    height: 300px;
+}
+.image-one {
+    box-shadow: #241c95ce -10px 10px, 
+    #4b43dfce -25px 25px, 
+    #675fffc3 -40px 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.image-two {
+    box-shadow: #241c95ce 0px 10px, 
+    #4b43dfce 0px 25px, 
+    #675fffc3 0px 40px;
+    border-radius: 30px;
+}
+.image-three {
+    box-shadow: #241c95ce 10px 10px, 
+    #4b43dfce 25px 25px, 
+    #675fffc3 40px 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 footer {
     background-color: #1a137e;
-    height: 100px;
+    height: 150px;
     position: relative;
     padding: 30px 20px;
     text-align: center;
@@ -124,15 +174,12 @@ footer a {
     font-size: 18px;
     transition: color 0.3s ease;
 }
+footer p {
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+}
 footer a:hover {
     color: #ffcc00;
-}
-.cool {
-    background-color: #FEF9FF;
-    color: #241c95;  
-    padding: 20px;
-    margin: 20px 200px 0 200px;
-    
 }
 .top {
     text-align: center;

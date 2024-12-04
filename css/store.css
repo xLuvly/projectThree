@@ -1,0 +1,46 @@
+.tote-bag {
+    height: 300px;
+}
+.pin {
+    height: 300px;
+    width: auto;
+}
+.notebook {
+    height: 300px;
+}
+.merch-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px;
+}
+.merch-container h3 {
+    color: #241c95;
+    font-size: 30px;
+}
+.item-one, .item-two, .item-three {
+    margin: 30px;
+}
+.tote-bag, .pin, .notebook {
+    margin: 0 0 50px;
+}
+.tote-bag {
+    box-shadow: #241c95ce -10px 10px, 
+    #4b43dfce -25px 25px, 
+    #675fffc3 -40px 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.pin {
+    box-shadow: #241c95ce 0px 10px, 
+    #4b43dfce 0px 25px, 
+    #675fffc3 0px 40px;
+    border-radius: 30px;
+}
+.notebook {
+    box-shadow: #241c95ce 10px 10px, 
+    #4b43dfce 25px 25px, 
+    #675fffc3 40px 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
