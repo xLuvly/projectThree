@@ -9,10 +9,17 @@ html {
 }
 nav {
     display: flex;
-    height: 100px;
+    height: 120px;
     background-image: linear-gradient(150deg, #4b43df, #241c95);
-    align-items:last baseline;
     padding: 0 20px;
+}
+nav img{
+    position: relative;
+    top: -50%;
+    display: flex;
+    height: 250px;
+    width: auto;
+    align-items: baseline;
 }
 nav a {
     text-decoration: none;
@@ -21,6 +28,7 @@ nav a {
 }
 nav ul {
     display: flex;
+    align-items: last baseline;
     list-style-type: none;
     margin-left:auto;
     gap: 20px;
@@ -39,6 +47,32 @@ nav .current {
 .current a {
     color: #3E389A;
 }
+.video-container {
+    position: relative;
+    height: 800px;
+}
+
+.video-container video {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    height: 80%; 
+    width: 85%;
+    object-fit: cover;
+    box-shadow: #241c95ce 20px 20px, 
+    #4b43dfce 40px 40px, 
+    #675fffc3 60px 60px;
+}
+
+.video-container .content {
+    position: relative;
+    padding: 100px 150px 250px 150px;
+    z-index: 10;
+    color: #fbf9ff;
+    max-width: 100%;
+}
+
+
 body {
     color: #fbf9ff;
 }
@@ -50,7 +84,7 @@ body {
     text-decoration: underline;
 }
 
-button {
+.buy-now {
     width: 150px;
     height: 50px;
     position: relative;
@@ -61,7 +95,7 @@ button {
     border: 5px solid #1a137e;
     color: #fbf9ff;
 }
-button:hover {
+.buy-now:hover {
     background-image: linear-gradient(150deg, #675fff, #c89afa);
     border: 5px solid #1a137e;
     color: #1a137e;
@@ -81,12 +115,25 @@ footer {
     height: 100px;
     position: relative;
     padding: 30px 20px;
+    text-align: center;
 }
 footer a {
     text-decoration: none;
     color: #FEF9FF;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
 }
-
+footer a:hover {
+    color: #ffcc00;
+}
+.cool {
+    background-color: #FEF9FF;
+    color: #241c95;  
+    padding: 20px;
+    margin: 20px 200px 0 200px;
+    
+}
 .top {
     text-align: center;
     padding: 100px 0 250px 0;

@@ -1,2 +1,73 @@
 .bottom-content {
+    height: auto;
+}
+.days {
+    color: #241c95;
+    background-color: #fbf9ff;
+    height:400px;
+}
+.days:target {
+    display: block;
+}
+.days h2 {
+    font-size: 70px;
+    margin: 100px 30px 20px;
+}
+.date h3 {
+    font-size: 25px;
+}
+.date h4 {
+    font-size: 15px;
+    margin: 10px 0 25px;
+}
+.date {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#day-one, #day-two, #day-three {
+    width: 70%;
+    height: 400px;
+}
+#day-one {
+    box-shadow: #c7c3ffce -20px 20px, 
+    #665febce -40px 40px;
+}
+#day-two {
+margin-left: auto;
+    box-shadow: #c7c3ffce 20px 20px, 
+    #665febce 40px 40px;
+}
+#day-three {
+    box-shadow: #c7c3ffce -20px 20px, 
+    #665febce -40px 40px;
+}
+.top {
+    margin: -50px 0 -150px 0;
+}
+.day-button {
+    background-color: #241c95ce;
+    width: 200px;
+    height: 100px;
+    margin: 0 100px 0 100px;
+    border: none;
+    box-shadow: #c7c3ffce 10px 10px, 
+    #665febce 20px 20px;
+    border-top: 1px solid #fbf9ff;
+    border-left: 1px solid #fbf9ff;
+}
+.day-button a {
+    text-decoration: none;
+    color: #fbf9ff;
+    font-size: 50px;
+}
+.day-button:hover{
+    background-color: #fbf9ff;
+    box-shadow: #665febce 10px 10px, 
+    #241c95ce 20px 20px;
+    border-top: 1px solid #fbf9ff;
+    border-left: 1px solid #fbf9ff; 
+    a {
+        color: #241c95ce;
+    }
 }
