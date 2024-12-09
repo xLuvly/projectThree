@@ -1,79 +1,95 @@
 .bottom-content {
-    height: 2100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .days {
-    color: #241c95;
+    width: 95%;
+    margin-bottom: 100px;
     background-color: #fbf9ff;
-    height:400px;
-    padding: 0.5px;
-    margin:100px;
+    color: #241c95;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
 }
 .days:target {
-    display: block;
+    display: flex;
+}
+h1 {
+    color: #3f11b5;
 }
 .days h2 {
-    font-size: 70px;
-    margin: 100px 30px 20px;
+    font-size: 4vw;
+    margin-right: 100px;
 }
 .date h3 {
-    font-size: 35px;
+    font-family: 'Poppins';
+    font-size: 2.7vw;
 }
 .date h4 {
-    font-size: 20px;
-    margin: 10px 0 0px;
-}
-.date {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    font-family: 'Baskerville';
+    font-size: 1.2vw;
+    margin-bottom: 10px;
 }
 #day-one, #day-two, #day-three {
-    width: 70%;
-    height: 520px;
+    width: 90%;
+    height: 70vh;
+    h2 {
+        text-align: left;
+        margin-left: 50px;
+    }
 }
-#day-one {
+#day-one, #day-three {
     box-shadow: #c7c3ffce -20px 20px, 
     #665febce -40px 40px;
 }
 #day-two {
-margin-left: auto;
+    margin-left: auto;
     box-shadow: #c7c3ffce 20px 20px, 
     #665febce 40px 40px;
-}
-#day-three {
-    box-shadow: #c7c3ffce -20px 20px, 
-    #665febce -40px 40px;
 }
 .top {
     margin: -50px 0 -150px 0;
 }
+.description {
+    margin: 15px 50px 40px 50px;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+}
 .day-button {
-    background-color: #241c95ce;
-    width: 300px;
+    background-color: #3f11b5;
+    width: 10vw;
     height: 50px;
-    margin: 0 100px 0 100px;
+    margin: 15px 20px 60px 20px;
     border: none;
-    box-shadow: #c7c3ffce 10px 10px, 
-    #665febce 20px 20px;
-    border-top: 1px solid #fbf9ff;
-    border-left: 1px solid #fbf9ff;
+    border-radius: 3px;
 }
 .day-button a {
     text-decoration: none;
-    color: #fbf9ff;
+    color: #ffcc00;
     font-size: 20px;
+    font-family: 'Poppins';
 }
 .day-button:hover{
-    background-color: #fbf9ff;
-    box-shadow: #665febce 10px 10px, 
-    #241c95ce 20px 20px;
+    background-color: #fff9c6;
+    box-shadow: #241c95ce 10px 10px;
     border-top: 1px solid #fbf9ff;
     border-left: 1px solid #fbf9ff; 
     a {
         color: #241c95ce;
     }
 }
-.sections {
-    position: sticky;
-    top: 0;
+span .bold {
+    font-size: 50px;
 }

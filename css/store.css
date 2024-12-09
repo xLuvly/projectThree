@@ -25,22 +25,27 @@
     margin: 0 0 50px;
 }
 .tote-bag {
-    box-shadow: #241c95ce -10px 10px, 
-    #4b43dfce -25px 25px, 
-    #675fffc3 -40px 40px;
+    box-shadow: #2f0b6ece -10px 10px, 
+    #3f11b5ce -25px 25px, 
+    #ae7ef1c3 -40px 40px;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
 }
 .pin {
-    box-shadow: #241c95ce 0px 10px, 
-    #4b43dfce 0px 25px, 
-    #675fffc3 0px 40px;
+    box-shadow: #2f0b6ece 0px 10px, 
+    #3f11b5ce 0px 25px, 
+    #ae7ef1c3 0px 40px;
     border-radius: 30px;
 }
 .notebook {
-    box-shadow: #241c95ce 10px 10px, 
-    #4b43dfce 25px 25px, 
-    #675fffc3 40px 40px;
+    box-shadow: #2f0b6ece 10px 10px, 
+    #3f11b5ce 25px 25px, 
+    #ae7ef1c3 40px 40px;
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
+
+/* 
+box-shadow: #2f0b6ece 20px 20px, 
+    #3f11b5ce 40px 40px, 
+    #ae7ef1c3 60px 60px; */
