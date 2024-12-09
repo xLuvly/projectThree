@@ -1,22 +1,24 @@
 .tote-bag {
-    height: 300px;
+    height: 20vw;
 }
 .pin {
-    height: 300px;
+    height: 20vw;
     width: auto;
 }
 .notebook {
-    height: 300px;
+    height: 20vw;
 }
 .merch-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px;
 }
 .merch-container h3 {
     color: #241c95;
-    font-size: 30px;
+    font-size: 2.1vw;
 }
 .item-one, .item-two, .item-three {
     margin: 30px;

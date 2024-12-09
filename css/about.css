@@ -1,0 +1,85 @@
+.bottom-content {
+    color: #3f11b5;
+}
+.information-top {
+    display: flex;
+    justify-content: flex-start; 
+    align-items:flex-start;
+    width: 100%; 
+    padding: 100px;
+    text-align: left; 
+    flex-direction: column;
+    color: #3f11b5;
+}
+
+.information-top h2 {
+    font-size: 6vw; 
+}
+.information-top h4 {
+    font-size: 2vw; 
+    font-family: 'Baskerville';
+}
+.general-info h2{
+    font-family: 'Baskerville'; 
+    font-size: 3vw; 
+    text-align: left; 
+    padding: 0 70px 0 100px;
+    color: #fbf9ff;
+}
+span {
+    font-family: 'Poppins';
+    font-weight: bold; 
+    font-size:1.2em; 
+    text-align: left; 
+}
+
+.general-info h2 {
+    margin:20px;
+    padding: 40px;
+    background-color: #fbf9ff;
+    color:#3f11b5;
+    box-shadow: #2f0b6ece 10px 10px, 
+    #3f11b5ce 15px 15px, 
+    #ae7ef1c3 20px 20px;
+    max-height: 600px;
+}
+.general-info {
+    padding-bottom: 40px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: left; 
+    width: 100%; 
+    padding: 50px 100px 30px 20px; 
+}
+.general-info img {
+    margin: 40px;
+    width: auto;
+    height: 32vw;
+}
+.information-middle {
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    width: 100%; 
+    padding: 40px; 
+    margin-top: 30px;
+    background-color: #fbf9ff;
+}
+
+.information-middle h2 {
+    font-size: 3vw; 
+    margin: 0px 50px 0px 70px;
+}
+
+
+.information-middle h4 {
+    font-size: 1.2vw; 
+    margin: 0 10px 0 100px;
+    background-color: #3f11b5;
+    padding: 20px;
+    color: #ffcc00;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
