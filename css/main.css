@@ -115,6 +115,10 @@ body {
     text-align: center;
     font-size: 20px;
 }
+.bottom-content h3 {
+    margin-top: 5px;
+    font-size: 1.2vw;
+}
 .bottom-images {
     display: flex;
     flex-wrap: wrap;
@@ -159,6 +163,9 @@ footer a:hover {
 .top h2 {
     font-size: 5vw;
 }
+/* footer img {
+    width: 100px;
+} */
 
 /* 
 fff9c6
