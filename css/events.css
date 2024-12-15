@@ -6,7 +6,7 @@
     align-items: flex-start;
 }
 .days {
-    width: 95%;
+    max-width: 95%;
     margin-bottom: 100px;
     background-color: #fbf9ff;
     color: #241c95;
@@ -16,9 +16,6 @@
     flex-direction: row;
     align-items: center;
     text-align: left;
-}
-.days:target {
-    display: flex;
 }
 h1 {
     color: #3f11b5;
@@ -38,7 +35,7 @@ h1 {
 }
 #day-one, #day-two, #day-three {
     width: 88%;
-    height: 80vh;
+    max-height: 80vh;
     h2 {
         text-align: left;
         margin-left: 50px;
@@ -90,8 +87,8 @@ h1 {
         color: #241c95ce;
     }
 }
-span .bold {
-    font-size: 50px;
+.description span{
+    font-size: 1.5vw;
 }
 nav {
     padding-bottom: 60px;
@@ -100,7 +97,7 @@ nav {
     background-image: url(../img/events-image.png);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    max-height: 80vh;
     h1 {
         padding-top:100px;
     }
@@ -127,4 +124,65 @@ li {
     font-family: 'Baskerville';
     font-size: 1.2vw;
     margin: 0 100px 0 100px;
+}
+
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .top {
+        background-position: center;
+    }
+
+    .button {
+        font-size: 1.5rem;
+        padding: 8px 15px;
+        max-width: 150px;
+    }
+
+    .bottom-content {
+        padding: 10px;
+    }
+
+    .sections {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .day-button {
+        width: 80%;
+        margin: 10px 0;
+        height: 45px;
+    }
+
+    .day-button a {
+        font-size: 1.5rem; 
+    }
+
+    .days {
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+
+    .days h2 {
+        font-size: 2.5rem;
+    }
+
+    .date h3 {
+        font-size: 2rem;
+    }
+
+    .date h4 {
+        font-size: 1rem;
+    }
+
+    .description {
+        margin: 10px;
+    }
 }

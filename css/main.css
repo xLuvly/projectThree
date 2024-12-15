@@ -144,7 +144,6 @@ a {
     transform: scale(1.1);
 }
 
-
 footer {
     background-color: #2f0b6e;
     padding: 75px;
@@ -187,10 +186,72 @@ footer img {
     
 } 
 
-/* 
-fff9c6
-FEF9FF
-3f11b5
-ae7ef1
+/* iPhone 14 size -> 390 x 844 */
+@media (max-width: 390px) and (max-height: 840) {
+    nav img {
+        height: 80px;
+    }
 
-*/
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 8px 0;
+    }
+
+    .video-container {
+        height: 400px;
+    }
+
+    .video-container video {
+        height: auto;
+    }
+
+    .content {
+        padding: 30px 10px;
+    }
+
+    .content h1 {
+        font-size: 10vw;
+    }
+
+    .content h2 {
+        font-size: 6vw;
+    }
+
+    .content h3 {
+        font-size: 4vw;
+    }
+
+    .buy-now {
+        font-size: 5vw;
+        padding: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .bottom-content {
+        font-size: 14px;
+    }
+
+    .bottom-images img {
+        max-height: 150px;
+    }
+
+    .media {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .media a {
+        font-size: 1rem;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+}
