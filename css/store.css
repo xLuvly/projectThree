@@ -47,6 +47,34 @@
     border-bottom-left-radius: 30px;
 }
 
+.tickets {
+    color: #fbf9ff;
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+    width: 100%; 
+    padding: 40px; 
+    margin-top: 50px;
+    margin-bottom: -30px;
+    background-color: #ae7ef1;
+}
+
+.tickets h2 {
+    font-size: 3vw; 
+    margin: 0px 50px 0px 70px;
+}
+
+.tickets h4 {
+    font-size: 1.2vw; 
+    margin: 0 10px 0 100px;
+    background-color: #3f11b5;
+    padding: 20px;
+    color: #fbf9ff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
 /* 
 box-shadow: #2f0b6ece 20px 20px, 
     #3f11b5ce 40px 40px, 
