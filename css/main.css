@@ -57,9 +57,10 @@ nav a:hover {
     position: absolute;
     left: 0;
     top: 50px;
-    height: 80%; 
-    max-width: 2000px;
-    width: 1300px;
+    max-height: 80%; 
+    width: 85%;
+    min-width: 85%;
+    max-width: 1700px;
     object-fit: cover;
     box-shadow: #2f0b6ece 20px 20px, 
     #3f11b5ce 40px 40px, 
