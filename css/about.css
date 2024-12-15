@@ -53,8 +53,8 @@ span {
 }
 .general-info img {
     margin: 40px;
-    width: auto;
-    height: 32vw;
+    width: 35vw;
+    height: auto;
 }
 .information-middle {
     display: flex;
