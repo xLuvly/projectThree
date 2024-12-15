@@ -1,52 +1,4 @@
-.tote-bag {
-    height: 20vw;
-}
-.pin {
-    height: 20vw;
-    width: auto;
-}
-.notebook {
-    height: 20vw;
-}
-.merch-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 60px;
-}
-.merch-container h3 {
-    color: #241c95;
-    font-size: 2.1vw;
-}
-.item-one, .item-two, .item-three {
-    margin: 30px;
-}
-.tote-bag, .pin, .notebook {
-    margin: 0 0 50px;
-}
-.tote-bag {
-    box-shadow: #2f0b6ece -10px 10px, 
-    #3f11b5ce -25px 25px, 
-    #ae7ef1c3 -40px 40px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-.pin {
-    box-shadow: #2f0b6ece 0px 10px, 
-    #3f11b5ce 0px 25px, 
-    #ae7ef1c3 0px 40px;
-    border-radius: 30px;
-}
-.notebook {
-    box-shadow: #2f0b6ece 10px 10px, 
-    #3f11b5ce 25px 25px, 
-    #ae7ef1c3 40px 40px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-
+/* Ticket Information */
 .tickets {
     color: #fbf9ff;
     display: flex;
@@ -75,7 +27,56 @@
     flex-direction: column; 
     align-items: flex-start;
 }
+
+/* Item Img Resizes */
+.tote-bag, .notebook, .pin {
+    height: 20vw;
+}
+.tote-bag, .pin, .notebook {
+    margin: 0 0 50px;
+}
+
+/* Merch Container */
+.merch-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 60px;
+}
+.merch-container h3 {
+    color: #241c95;
+    font-size: 2.1vw;
+}
+.item-one, .item-two, .item-three {
+    margin: 30px;
+}
+
+/* Item Backgrounds */
+.tote-bag {
+    box-shadow: #2f0b6ece -10px 10px, 
+    #3f11b5ce -25px 25px, 
+    #ae7ef1c3 -40px 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.pin {
+    box-shadow: #2f0b6ece 0px 10px, 
+    #3f11b5ce 0px 25px, 
+    #ae7ef1c3 0px 40px;
+    border-radius: 30px;
+}
+.notebook {
+    box-shadow: #2f0b6ece 10px 10px, 
+    #3f11b5ce 25px 25px, 
+    #ae7ef1c3 40px 40px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
 /* 
 box-shadow: #2f0b6ece 20px 20px, 
     #3f11b5ce 40px 40px, 
-    #ae7ef1c3 60px 60px; */
+    #ae7ef1c3 60px 60px; 
+*/

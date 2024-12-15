@@ -1,3 +1,4 @@
+/* General/ Basic Edits */
 html {
     background-color: #fff9c6;
 }
@@ -7,6 +8,14 @@ html {
     margin: 0;
     padding: 0;
 }
+body {
+    color: #fbf9ff;
+}
+a {
+    text-decoration: none;;
+}
+
+/* Navigation */
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -48,6 +57,8 @@ nav a:hover {
 .current a {
     color: #3f11b5;
 }
+
+/* Home Page Video Area */
 .video-container {
     position: relative;
     height: 800px;
@@ -72,9 +83,7 @@ nav a:hover {
     color: #fbf9ff;
     max-width: 100%;
 }
-body {
-    color: #fbf9ff;
-}
+/* words on video */
 .content {
     padding: 100px 150px 250px 150px;
 }
@@ -91,9 +100,7 @@ body {
 .content h3 {
     font-size: 1.5vw;
 }
-a {
-    text-decoration: none;;
-}
+/* buy now button */
 .buy-now {
     max-width: 200px;
     max-height: 70px;
@@ -118,6 +125,18 @@ a {
     text-decoration: underline;
 }
 
+/* Top Area Content - applies to multiple pages*/
+.top {
+    text-align: center;
+}
+.top h1 {
+    font-size: 10vw;
+}
+.top h2 {
+    font-size: 5vw;
+}
+
+/* Bottom Area Content - applies to multiple pages*/
 .bottom-content {
     background-image: linear-gradient(150deg, #ae7ef1, #3f11b5);
     padding: 30px 10px;
@@ -139,11 +158,11 @@ a {
     max-height: 300px;
     transition: transform 0.3s ease;
 }
-
 .image-one:hover, .image-two:hover, .image-three:hover {
     transform: scale(1.1);
 }
 
+/* Footer Edits */
 footer {
     background-color: #2f0b6e;
     padding: 75px;
@@ -169,27 +188,20 @@ footer p {
 footer a:hover {
     color: #ffcc00;
 }
-.top {
-    text-align: center;
-}
-.top h1 {
-    font-size: 10vw;
-}
-.top h2 {
-    font-size: 5vw;
-}
 footer img {
-    height: 50px;
+    height: 30px;
+    width: auto;
     position: relative;
     top: 25px;
-    right: 48px;
-    
+    right: -40px;
 } 
 
+
+/* iPad Pro Landscape media Query - 1366px x 1024px */
 @media only screen 
-and (device-width: 428px) 
-and (device-height: 926px) 
-and (-webkit-device-pixel-ratio: 3)
+and (device-width: 1366px) 
+and (device-height: 1024px) 
+and (-webkit-device-pixel-ratio: 1.5)
 {
     .video-container {
         height: 500px;

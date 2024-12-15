@@ -1,3 +1,47 @@
+/* Events General Edits */
+h1 {
+    color: #3f11b5;
+}
+nav {
+    padding-bottom: 60px;
+}
+li {
+    font-family: 'Baskerville';
+    font-size: 1.2vw;
+    margin: 0 100px 0 100px;
+}
+
+/* Top Edits */
+.top {
+    margin: -50px 0 -150px 0;
+    background-image: url(../img/events-image.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    h1 {
+        padding-top:100px;
+    }
+}
+/* buy now button */
+.button {
+    max-width: 200px;
+    max-height: 70px;
+    position: relative;
+    font-size: 2vw;
+    padding: 10px;
+    background-color: #ae7ef1;
+    color: #3f11b5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button:hover {
+    background-image: linear-gradient(150deg, #675fff, #c89afa);
+    color: #2f0b6e;
+    text-decoration: underline;
+}
+
+/* Bottom Edits */
 .bottom-content {
     width: 100%;
     padding: 20px;
@@ -5,57 +49,8 @@
     flex-direction: column;
     align-items: flex-start;
 }
-.days {
-    max-width: 95%;
-    margin-bottom: 100px;
-    background-color: #fbf9ff;
-    color: #241c95;
-    padding: 15px;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
-}
-h1 {
-    color: #3f11b5;
-}
-.days h2 {
-    font-size: 4vw;
-    margin-right: 100px;
-}
-.date h3 {
-    font-family: 'Poppins';
-    font-size: 2.7vw;
-}
-.date h4 {
-    font-family: 'Baskerville';
-    font-size: 1.2vw;
-    margin-bottom: 10px;
-}
-#day-one, #day-two, #day-three {
-    width: 88%;
-    height: 80vh;
-    h2 {
-        text-align: left;
-        margin-left: 50px;
-    }
-}
-#day-one, #day-three {
-    box-shadow: #c7c3ffce -20px 20px, 
-    #665febce -40px 40px;
-}
-#day-two {
-    margin-left: auto;
-    box-shadow: #c7c3ffce 20px 20px, 
-    #665febce 40px 40px;
-}
-.top {
-    margin: -50px 0 -150px 0;
-}
-.description {
-    margin: 15px 50px 40px 50px;
-}
+
+/* day information button holder */
 .sections {
     display: flex;
     justify-content: center;
@@ -64,6 +59,8 @@ h1 {
     position: sticky;
     top: 0%;
 }
+
+/* day buttons */
 .day-button {
     background-color: #3f11b5;
     width: 10vw;
@@ -87,41 +84,58 @@ h1 {
         color: #241c95ce;
     }
 }
-.description span{
-    font-size: 1.5vw;
-}
-nav {
-    padding-bottom: 60px;
-}
-.top {
-    background-image: url(../img/events-image.png);
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    h1 {
-        padding-top:100px;
-    }
+
+/* Day Formatting */
+.days {
+    max-width: 95%;
+    margin-bottom: 100px;
+    background-color: #fbf9ff;
+    color: #241c95;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
 }
 
-.button {
-    max-width: 200px;
-    max-height: 70px;
-    position: relative;
-    font-size: 2vw;
-    padding: 10px;
-    background-color: #ae7ef1;
-    color: #3f11b5;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+.days h2 {
+    font-size: 4vw;
+    margin-right: 100px;
 }
-.button:hover {
-    background-image: linear-gradient(150deg, #675fff, #c89afa);
-    color: #2f0b6e;
-    text-decoration: underline;
+.date h3 {
+    font-family: 'Poppins';
+    font-size: 2.7vw;
 }
-li {
+.date h4 {
     font-family: 'Baskerville';
     font-size: 1.2vw;
-    margin: 0 100px 0 100px;
+    margin-bottom: 10px;
+}
+
+/* Individual Day Edits */
+#day-one, #day-two, #day-three {
+    width: 88%;
+    height: 80vh;
+    h2 {
+        text-align: left;
+        margin-left: 50px;
+    }
+}
+#day-one, #day-three {
+    box-shadow: #c7c3ffce -20px 20px, 
+    #665febce -40px 40px;
+}
+#day-two {
+    margin-left: auto;
+    box-shadow: #c7c3ffce 20px 20px, 
+    #665febce 40px 40px;
+}
+
+/* Day Information/Descriptions */
+.description {
+    margin: 15px 50px 40px 50px;
+}
+.description span{
+    font-size: 1.5vw;
 }
