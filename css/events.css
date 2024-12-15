@@ -97,7 +97,7 @@ nav {
     background-image: url(../img/events-image.png);
     background-size: cover;
     background-position: center;
-    max-height: 80vh;
+    height: 80vh;
     h1 {
         padding-top:100px;
     }
