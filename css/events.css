@@ -35,7 +35,7 @@ h1 {
 }
 #day-one, #day-two, #day-three {
     width: 88%;
-    max-height: 80vh;
+    height: 80vh;
     h2 {
         text-align: left;
         margin-left: 50px;
@@ -136,6 +136,7 @@ li {
     }
 
     .top {
+        height: 40vh;
         background-position: center;
     }
 
